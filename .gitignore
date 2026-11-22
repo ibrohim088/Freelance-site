@@ -1,0 +1,29 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+build/
+*.tsbuildinfo
+.vite/
+
+# Секреты (токен бота, данные БД)
+.env
+.env.*
+
+# Логи
+*.log
+logs/
+npm-debug.log*
+
+# Тесты
+coverage/
+
+# Редакторы и IDE
+.vs/
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
